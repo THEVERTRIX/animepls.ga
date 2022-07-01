@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+header > nav > div.container-fluid > a.navbar-brand {
+	font-family: 'Lobster', cursive !important;
+}
+
+header > nav > div.container-fluid > .navbar-toggler span i {
+	color: white;
+	font-size: 100%;
+}
+
+/* Iniciar Sesion */
+
+#fotter + div,.disclaimer {
+    visibility: hidden;
+}
+
+.Registrar {
+	display: flex;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 50%;
+}
+
+.contenedor .title {
+	text-transform: uppercase;
+}
+
+.contenedor label {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	font-size: 18px;
+	width: 80%;
+	padding: 10px;
+}
+
+.contenedor label:nth-child(5) {
+	display: flex;
+	flex-direction: row;
+}
+
+.contenedor label:nth-child(5) select {
+	margin-left: 5px;
+	border-radius: 3px;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.contenedor label input{
+	border-radius: 7px;
+	border: none;
+	font-size: 18px;
+	background: #F1F1F1;
+	width: 100%;
+	outline: none;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+.contenedor label .pass{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor label .pass i{
+	padding: 5px 10px 5px 10px;
+}
+
+.boton_iniciar {
+	margin-top: 10px;
+	color: white;
+	padding: 7px;
+	border-radius: 10px;
+	border: none;
+	width: 30%;
+}
+
+.overlay {
+	background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, hsla(34, 13%, 11%, 0.45), hsla(6, 100%, 28%, 0.45)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcblb34d4807560742a18897b00ef613c8ef?width=2046&height=1536);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, hsla(34, 13%, 11%, 0.45), hsla(6, 100%, 28%, 0.45)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcblb34d4807560742a18897b00ef613c8ef?width=2046&height=1536); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -350px;
+	background-attachment: fixed;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	height: 100vh;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.c-reg {
+	margin-top: 10px;
+}
+
+.c-reg > a {
+	text-decoration: none;
+	color: #C70039;
+}
+
+.c-reg > a:hover {
+	color: #900C3F;
+}
+
+div.pass {
+	background: #F1F1F1;
+	border-radius: 7px;
+}
+
+@media (max-width: 1000px) {
+	.c-reg > a {
+		color: #3FAAFC;
+	}
+
+	.c-reg > a:hover {
+		color: #357AB0;
+	}
+
+	.contenedor label .pass i{
+		color: black;
+	}
+
+	.c-reg > span {
+		color: white;
+	}
+
+	.overlay {
+		width: 0;
+		display: none;
+	}
+
+	body {
+		background: #8E0E00;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to bottom, hsla(34, 13%, 11%, 0.45), hsla(6, 100%, 28%, 0.45)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcblb34d4807560742a18897b00ef613c8ef?width=2046&height=1536);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to bottom, hsla(34, 13%, 11%, 0.45), hsla(6, 100%, 28%, 0.45)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcblb34d4807560742a18897b00ef613c8ef?width=2046&height=1536); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.contenedor {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		width: 100%;
+		height: 100vh;
+	}
+
+	.contenedor h1 {
+		color: white;
+	}
+
+	.contenedor label {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		font-size: 25px;
+		width: 80%;
+		color: white;
+		padding: 10px;
+	}
+
+	.contenedor label input{
+		border-radius: 7px;
+		border: none;
+		font-size: 18px;
+		background: #F1F1F1;
+		width: 100%;
+		outline: none;
+		padding: 5px;
+		padding-left: 15px;
+	}
+
+	.boton_iniciar {
+		margin-top: 10px;
+		color: white;
+		padding: 7px;
+		border-radius: 10px;
+		border: none;
+		width: 77%;
+	}
+
+	.contenedor label:nth-child(5) {
+		font-size: 20px;
+	}
+
+	.contenedor label:nth-child(5) select {
+		color: white;
+	}
+}

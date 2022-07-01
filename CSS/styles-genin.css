@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #333333;
+	background: -webkit-linear-gradient(to bottom, hsla(34, 13%, 11%, 0.80), hsla(6, 100%, 28%, 0.80)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcbldbfa242d84414849be6b4bc6b6895865?width=2046&height=1536);
+	background: linear-gradient(to bottom, hsla(34, 13%, 11%, 0.80), hsla(6, 100%, 28%, 0.80)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcbldbfa242d84414849be6b4bc6b6895865?width=2046&height=1536);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header > nav {
+	background: hsla(0, 0%, 0%, 0.56);
+	backdrop-filter: blur(5px);
+	color: white;
+}
+
+header > nav > div.container-fluid > a.navbar-brand {
+	font-family: 'Lobster', cursive !important;
+}
+
+header > nav > div.container-fluid > .navbar-toggler span i {
+	color: white;
+	font-size: 100%;
+}
+
+header > nav > div.container-fluid .dis-flex {
+	display: flex;
+}
+
+header > nav > div.container-fluid .dis-flex > a > i {
+	font-size: 150%;
+	padding: 0;
+	margin: 0;
+}
+
+header > nav > div.container-fluid .dis-flex > a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 5px 0 5px;
+	margin: 0;
+}
+
+#fotter + div,.disclaimer {
+    visibility: hidden;
+}
+
+.Ultimos-episodios {
+	margin-top: 60px;
+}
+
+.Ultimos-episodios > .title > h1 {
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.Ultimos-animes > .title > h1 {
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.videos {
+	text-align: center;
+	height: auto;
+}
+
+.c {
+	display: inline-block;
+	width: 18rem;
+	padding: 5px;
+}
+
+.card-anime {
+	background: hsla(0, 0%, 0%, 0.65);
+	border-radius: 10px;
+}
+
+.card-anime > .img-card {
+	width: 100%;
+	position: relative;
+}
+
+.card-anime > .img-card img {
+	display: block;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+}
+
+.icon-card {
+	left: 0;
+	bottom: 0;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+}
+
+.about-ep {
+	color: white;
+	text-align: left;
+	padding: 10px;
+}
+
+.title-anime-display {
+	max-width: 100%;
+}
+
+.about-ep > div:nth-child(1){
+	font-size: 10px;
+}
+
+.about-ep > div:nth-child(2){
+	font-size: 20px;
+	height: 25px;
+}
+
+.about-ep > div:nth-child(3){
+	font-size: 13px;
+	height: 25px;
+}
+
+.about-ep > div:nth-child(4){
+	font-size: 10px;
+}
+
+.about-ep > div a {
+	text-decoration: none;
+	color: white;
+}
+
+.about-ep > div a:hover {
+	text-decoration: underline;
+}
+
+.Animes {
+	height: auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Anime {
+	display: inline-block;
+	padding: 5px;
+}
+
+.Anime > a {
+	text-decoration: none;
+}
+
+.contenido {
+	width: 20rem;
+	background: white;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.text-over {
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+.text-over h1 {
+	font-size: 100%;
+}
+
+.contenido > img {
+	width: 100%;
+}
+
+@media (max-width: 900px) {
+	
+	.videos {
+		text-align: center;
+		height: auto;
+	}
+
+	.c {
+		display: inline-block;
+		width: 18rem;
+		padding: 5px;
+	}
+
+	.contenido {
+		width: 18rem;
+	}
+
+}
+
+@media (max-width: 350px) {
+
+	.videos {
+		text-align: center;
+		height: auto;
+	}
+
+	.c {
+		display: inline-block;
+		width: 100%;
+		padding: 5px;
+	}
+
+	.contenido {
+		width: 100%;
+		background: white;
+		padding: 5px;
+		border-radius: 10px;
+	}
+
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #333333;
+	background: -webkit-linear-gradient(to bottom, hsla(34, 13%, 11%, 0.80), hsla(6, 100%, 28%, 0.80)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcbldbfa242d84414849be6b4bc6b6895865?width=2046&height=1536);
+	background: linear-gradient(to bottom, hsla(34, 13%, 11%, 0.80), hsla(6, 100%, 28%, 0.80)),url(https://previewengine-accl.zohoexternal.com/image/WD/okcbldbfa242d84414849be6b4bc6b6895865?width=2046&height=1536);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header > nav > div.container-fluid > a.navbar-brand {
+	font-family: 'Lobster', cursive !important;
+}
+
+header > nav > div.container-fluid > .navbar-toggler span i {
+	color: white;
+	font-size: 100%;
+}
+
+/* Dashboard */
+
+#fotter + div,.disclaimer {
+    visibility: hidden;
+}
+
+.Editar-contenido {
+	width: 100%;
+	height: 70vh;
+	margin-top: 60px;
+}
+
+.title h1 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #DB1E32;
+}
+
+.Secciones {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.Secciones select{
+	border: none;
+	background: royalblue;
+	border-radius: 3px;
+	color: white;
+}
+
+.in-list {
+	background: none;
+	color: white;
+	border: none;
+	outline: none;
+}
+
+.contenedor {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor form {
+	width: 80%;
+}
+
+.fw-bold > button{
+	background: none;
+	border: none;
+}
+
+.subir_anime {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+.subir_anime > label {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	color: red;
+	flex-direction: column;
+	font-size: 20px;
+}
+
+.subir_anime > label > input {
+	padding: 5px;
+	outline: none;
+	border-radius: 10px;
+	border: 2px black solid;
+}
+
+.subir_anime > label > textarea {
+	padding: 5px;
+	outline: none;
+	border-radius: 10px;
+	border: 2px black solid;
+}
+
+.subir_episodio {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	margin-top: 50px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.subir_episodio > label {
+	width: 100%;
+	padding: 5px;
+	display: flex;
+	color: red;
+	flex-direction: column;
+	font-size: 20px;
+}
+
+.subir_episodio > label > input {
+	padding: 5px;
+	outline: none;
+	border-radius: 10px;
+	border: 2px black solid;
+}
+
+.subir_episodio > label > textarea {
+	padding: 5px;
+	outline: none;
+	border-radius: 10px;
+	border: 2px black solid;
+}
+
+.carousel {
+	background: white;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.carousel input {
+	padding: 5px;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 5px;
+	outline: none;
+	margin: 10px;
+}
+
+.sp-nas {
+	font-size: 15px;
+	flex-direction: column;
+	display: flex;
+	text-align: center;
+}
+
+.img-anime {
+	background: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+.img-anime > input {
+	outline: none;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.Seleccionar_anime {
+	display: flex;
+	flex-direction: column;
+}
+
+.Seleccionar_anime > input.entrada {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+@media (max-width: 1000px) {
+	.contenedor form {
+		width: 100%;
+	}
+}
