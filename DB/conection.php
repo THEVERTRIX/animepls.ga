@@ -1,6 +1,6 @@
 <?php 
 
-$conexion = mysqli_connect('localhost', 'THEVERTRIX', 'TheVrts132#'
+$conexion = mysqli_connect('localhost', 'USERNAME', 'PASSWORD'
 	, 'Animeplus') or die('Conexion Fallida');
 
 ?>
